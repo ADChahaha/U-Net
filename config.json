@@ -1,0 +1,10 @@
+{
+    "epoch": 60,
+    "train_image_path": "/home/lyzl/U-Net/kvasir-seg/Kvasir-SEG/images",
+    "train_label_path": "/home/lyzl/U-Net/kvasir-seg/Kvasir-SEG/masks",
+    "val_image_path": "/home/lyzl/U-Net/kvasir-sessile/sessile-main-Kvasir-SEG/images",
+    "val_label_path": "/home/lyzl/U-Net/kvasir-sessile/sessile-main-Kvasir-SEG/masks",
+    "device": "cuda",
+    "batch_size": 12,
+    "weights_path": "outputs"
+}
