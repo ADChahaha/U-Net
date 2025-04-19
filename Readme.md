@@ -1,4 +1,3 @@
 # U-Net
 
-
-best_f1.pth为0.9 f1-score的pth
+本项目为个人练丹练习，使用kvasir-seg数据集联系U-Net， 达到最佳IOU 0.91
