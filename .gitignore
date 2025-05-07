@@ -5,5 +5,4 @@ kvasir-seg/
 kvasir-sessile/
 *.png
 *.jpg
-*.pth
 *.pyc

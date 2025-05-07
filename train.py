@@ -16,8 +16,8 @@ import torchmetrics
 
 
 def DiceLoss(predict, label, epsilon=1e-7):
-    torch.nn.functional.sigmoid((predict - 0.5) * 10000)
-    torch.nn.functional.sigmoid((label - 0.5) * 100)
+    predict = torch.nn.functional.sigmoid((predict - 0.5) * 10000)
+    label = torch.nn.functional.sigmoid((label - 0.5) * 100)
     intersection = torch.sum(predict * label)
     total = torch.sum(predict) + torch.sum(label)
     dice = (2.0 * intersection + epsilon) / (total + epsilon)
